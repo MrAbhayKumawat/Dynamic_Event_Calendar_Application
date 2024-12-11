@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dynamic Event Calendar Application
 
-## Getting Started
+This is a React-based Dynamic Event Calendar Application built with Next.js, Tailwind CSS, and shadcn/ui components. It allows users to manage events efficiently with a clean and modern user interface.
 
-First, run the development server:
+1. Clone the repository: - https://github.com/MrAbhayKumawat/Dynamic_Event_Calendar_Application
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Live Project : - https://dynamic-event-calender-by-abhay.netlify.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Calendar View**:
+   - Display a calendar grid for the current month with all days properly aligned.
+   - Navigate between months using "Previous" and "Next" buttons.
+   - Highlight the current day and selected day visually.
 
-## Learn More
+2. **Event Management**:
+   - Add events by clicking on a day.
+   - Edit or delete existing events.
+   - Each event includes:
+     - Event name
+     - Start time and end time
+     - Optional description
 
-To learn more about Next.js, take a look at the following resources:
+3. **Event List**:
+   - Display a list of all events for the selected day in a modal.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Data Persistence**:
+   - Use localStorage to persist events between page refreshes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. **Complex Logic**:
+   - Automatically handle month transitions.
+   - Prevent overlapping events (e.g., two events at the same time).
+   - Allow filtering of events by keyword.
 
-## Deploy on Vercel
+6. **Responsive Design**:
+   - Clean and modern UI using shadcn/ui components.
+   - Fully responsive layout that works on desktop and mobile devices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Running the App Locally
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To run this application on your local machine, follow these steps:
+
+1. Clone the repository: - https://github.com/MrAbhayKumawat/Dynamic_Event_Calendar_Application
+
+2. Live Project : - https://dynamic-event-calender-by-abhay.netlify.app/
+
